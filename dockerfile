@@ -22,7 +22,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # ব্যানার ডাউনলোড ও ব্যাকগ্রাউন্ড রিপ্লেস
 RUN mkdir -p /usr/share/backgrounds/xfce /usr/share/images/desktop-base && \
-    curl -fsSL "https://raw.githubusercontent.com/adminnirobvai1-ux/drx/refs/heads/main/1789570402521.png" -o /usr/share/backgrounds/custom_bg.png && \
+    curl -fsSL "https://raw.githubusercontent.com/adminnirobvai1-ux/Arx/refs/heads/main/IMG_20260920_222317_682.jpg" -o /usr/share/backgrounds/custom_bg.png && \
     cp /usr/share/backgrounds/custom_bg.png /usr/share/backgrounds/xfce/xfce-blue.jpg && \
     cp /usr/share/backgrounds/custom_bg.png /usr/share/backgrounds/xfce/xfce-stripes.png && \
     cp /usr/share/backgrounds/custom_bg.png /usr/share/backgrounds/xfce/xfce-teal.jpg && \
